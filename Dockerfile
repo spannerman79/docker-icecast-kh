@@ -4,7 +4,7 @@ FROM ubuntu:bionic
 MAINTAINER Stéphane Lepin <stephane.lepin@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV IC_VERSION "2.4.0-kh12"
+ENV IC_VERSION "2.4.0-kh15"
 
 RUN apt-get -qq -y update && \
 	apt-get -qq -y install build-essential \
